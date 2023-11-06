@@ -1,0 +1,20 @@
+* {
+	block-size: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background-color: #333;
+	font-size: 36px;
+	color: #fff;
+}
+
+.container {
+	margin-top: 300px;
+	text-align: center;
+}
+
+[class*='col'] {
+	border: 2px solid lime;
+}
