@@ -79,3 +79,21 @@ body {
 	padding: 1em;
 	font-size: 1.8rem;
 }
+
+.accordion-button:not(.collapser) {
+	color: rgb(233, 106, 22);
+	background-color: rgb(248, 248, 248);
+}
+
+.team {
+	background-color: rgb(248, 248, 248);
+}
+
+.team .card-img-top {
+	height: 300px;
+	object-fit: cover;
+}
+
+.team .card-title {
+	font-size: 2rem;
+}
