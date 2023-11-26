@@ -97,3 +97,13 @@ body {
 .team .card-title {
 	font-size: 2rem;
 }
+
+.contact h3 {
+	font-size: 2rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.contact .submit-form {
+	font-size: 1.6rem;
+}
