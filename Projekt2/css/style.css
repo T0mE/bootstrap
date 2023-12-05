@@ -60,6 +60,36 @@ header {
 	background-image: url('../img/main-carousel-3.jpg');
 }
 
+.home-boxes {
+	padding: 5em 0;
+}
+
+.home-box i {
+	font-size: 4rem;
+}
+
+.home-box h3 {
+	font-size: 2.6rem;
+}
+
+.home-passion {
+	position: relative;
+	height: 350px;
+	background-image: url('../img/home-passion.jpg');
+	background-position: center;
+	background-size: cover;
+	z-index: 0;
+}
+
+.home-brand h3 {
+	font-size: 3rem;
+	font-weight: bold;
+}
+
+footer {
+	font-size: 1.6rem;
+}
+
 @media (min-width: 1440px) {
 	.carousel-item {
 		height: 600px;
