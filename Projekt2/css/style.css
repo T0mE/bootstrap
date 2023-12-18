@@ -140,6 +140,20 @@ footer {
 	object-fit: cover;
 }
 
+.aboutus-bottom i {
+	font-size: 3rem;
+}
+
+.aboutus-bottom h3 {
+	font-size: 2.2rem;
+	font-weight: bold;
+}
+
+.service-hero {
+	background-image: url('../img/services/car.jpg');
+	background-position: 0 75%;
+}
+
 @media (min-width: 992px) {
 	.aboutus-info .container {
 		padding: 0;
