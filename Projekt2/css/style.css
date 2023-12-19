@@ -154,6 +154,39 @@ footer {
 	background-position: 0 75%;
 }
 
+.service-hero-box {
+	position: relative;
+	height: 300px;
+	background-size: cover;
+	z-index: 0;
+}
+
+.service-hero-box p {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	font-size: 3rem;
+	text-transform: uppercase;
+	color: #fff;
+}
+
+.service-hero-box.box-one {
+	background-image: url('../img/services/engine.jpg');
+}
+
+.service-hero-box.box-two {
+	background-image: url('../img/services/visual.jpg');
+}
+
+.service-hero-box.box-three {
+	background-image: url('../img/services/car-audio.jpg');
+}
+
+.service-hero-box.box-four {
+	background-image: url('../img/services/allinone.jpg');
+}
+
 @media (min-width: 992px) {
 	.aboutus-info .container {
 		padding: 0;
