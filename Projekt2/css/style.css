@@ -187,6 +187,52 @@ footer {
 	background-image: url('../img/services/allinone.jpg');
 }
 
+.projects-hero {
+	background-image: url('../img/project/project-hero.jpg');
+	background-position: center;
+}
+
+.projects img {
+	height: 240px;
+	object-fit: cover;
+}
+
+.projects .btn {
+	font-size: 1.4rem;
+	text-transform: uppercase;
+}
+
+.contact-hero {
+	background-image: url('../img/contact/shelby-3821715_1280.jpg');
+	background-position: center;
+}
+
+.contact h2 {
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 2.6rem;
+}
+
+.contact-logo {
+	font-size: 3rem;
+}
+
+.contact input,
+.contact select,
+.contact textarea {
+	font-size: 1.6rem;
+}
+
+.contact .btn {
+	padding: 0.3em 0.8em;
+	font-size: 2rem;
+}
+
+.contact-map iframe {
+	width: 100%;
+	min-height: 400px;
+}
+
 @media (min-width: 992px) {
 	.aboutus-info .container {
 		padding: 0;
