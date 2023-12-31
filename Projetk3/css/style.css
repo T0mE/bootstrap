@@ -46,6 +46,12 @@ body {
 	);
 }
 
+.info-top h1 {
+	font-size: 4rem;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
 /* ---------- */
 
 .date-box {
@@ -215,4 +221,37 @@ aside h3 {
 
 .users-gender p {
 	font-size: 3rem;
+}
+
+.monthly-stats .form-select,
+.monthly-stats option {
+	font-size: 1.6rem;
+}
+
+.monthly-stats .info {
+	font-size: 1.8rem;
+}
+
+.monthly-stats .number {
+	font-size: 1.4rem;
+}
+
+/* podstrona posts */
+
+.posts h3 {
+	font-size: 2.4rem;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.featured-post .btn {
+	font-size: 1.6rem;
+}
+
+.featured-post .card-title {
+	font-size: 1.8rem;
+}
+
+.featured-post .card-body {
+	font-size: 1.4rem;
 }
